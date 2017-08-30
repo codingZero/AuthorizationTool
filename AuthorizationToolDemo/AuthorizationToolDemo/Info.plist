@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>这里可以写一些提示信息，也可以不写</string>
+	<key>NSContactsUsageDescription</key>
+	<string></string>
+	<key>Authorization</key>
+	<dict>
+		<key>photo</key>
+		<dict>
+			<key>title</key>
+			<string>没有访问权限</string>
+			<key>message</key>
+			<string>相册权限未开启，请前往系统设置打开相册权限</string>
+		</dict>
+		<key>contact</key>
+		<dict>
+			<key>title</key>
+			<string>没有访问权限</string>
+			<key>message</key>
+			<string>通讯录权限未开启，请前往系统设置打开通讯录权限</string>
+		</dict>
+		<key>common</key>
+		<dict>
+			<key>title</key>
+			<string>无权限</string>
+			<key>message</key>
+			<string>请前往系统设置打开访问权限</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
